@@ -1,0 +1,35 @@
+body {
+    display: block;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    background: #232323 url('img/body-bg.png') repeat center center;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    display: inline-block;
+    width: 256px;
+    position: fixed; /* or absolute */
+    top: 50%;
+    right: 50%;
+    margin-top: -96px;
+    margin-right: -128px;
+}
+
+.title-logo {
+    display: block;
+    float: right;
+    width: 128px;
+    height: 128px;
+    margin: 0 64px;
+    background: transparent url('img/logo.png') no-repeat center center;
+}
+
+.title h1 {
+    color: #cdcdcd;
+    line-height: 64px;
+    margin: 0;
+    padding: 0;
+}
